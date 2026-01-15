@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "Demon Cheats Root Bypass",
+   Name = "Rayfield Example Window",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Root Bypass",
-   LoadingSubtitle = "by Demon Cheats",
+   LoadingTitle = "Rayfield Interface Suite",
+   LoadingSubtitle = "by Sirius",
    ShowText = "Rayfield", -- for mobile users to unhide rayfield, change if you'd like
    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
@@ -35,11 +35,12 @@ local Window = Rayfield:CreateWindow({
       Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
+local Tab = Window:CreateTab("Root Bypass", 4483362458) -- Title, Image
 local Toggle = Tab:CreateToggle({
-   Name = "Toggle Example",
+   Name = "ROOT BYPASS",
    CurrentValue = false,
-   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
-   Callback = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tonkla-DreamingHub/Demon-Cheats/refs/heads/main/Demon%20Cheats"))()PK_FREE_X5ITh8yntu
+   Flag = "ROOT BYPASS", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tonkla-DreamingHub/Demon-Cheats/refs/heads/main/Demon%20Cheats"))()
    -- The function that takes place when the toggle is pressed
    -- The variable (Value) is a boolean on whether the toggle is true or false
    end,
