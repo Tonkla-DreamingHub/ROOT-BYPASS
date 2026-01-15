@@ -35,8 +35,8 @@ local Window = Rayfield:CreateWindow({
       Key = {"1"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
-local Tab = Window:CreateTab("Root Bypass", 4483362458) -- Title, Image
-local Section = Tab:CreateSection("Root Bypass")
+local Tab = Window:CreateTab("Bypass Emulador", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Bypass Emulador")
 local Toggle = Tab:CreateToggle({
    Name = "Root Bypass",
    CurrentValue = false,
